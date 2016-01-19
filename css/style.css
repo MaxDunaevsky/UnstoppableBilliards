@@ -1,0 +1,87 @@
+body{
+	margin: 0 auto;
+	height: 91vh;
+	width: 98vw;
+	background-color: #BB5700;
+	background-image: linear-gradient(5deg, #BB5700 20%, transparent 25%, #2183BB 30%);
+	background-repeat: no-repeat;
+}
+
+#canvasContainer {
+	position: relative;
+	width: 800px;
+	height: 400px;
+	margin: auto;
+}
+
+#myCanvas {
+	background-image: none;
+	cursor: pointer;
+}
+
+h1{
+	width: 800px;
+	text-align: center;
+	font: bold 30pt Monotype Corsiva;
+	color: white;
+	margin: 15px auto 0;
+}
+
+#startButton{
+	position: absolute;
+	top: 84%;
+	left: 84%;
+	background-color: #2183BB;
+	color: white;
+	border: 2px solid #2F59F0;
+	border-radius: 25px;
+	box-shadow: 4px 4px 4px black;
+	width: 80px;
+	padding: 10px;
+	font: bold 24pt Monotype Corsiva;
+	text-align: center;
+	cursor: pointer;
+}
+
+#startButton:hover{
+	width: 90px;
+	left: 83%;
+}
+
+table {
+	border: 0;
+	color: white;
+	font: bold 20pt Monotype Corsiva;
+	margin: 0 auto;
+}
+
+#levelsWon, #ballsCurrently{
+	padding-left: 45px;
+}
+
+#instruction{
+	position: absolute;
+	display: block;
+	background-color: #2183BB;
+	border-radius: 20px;
+	color: white;
+	font: normal 16pt Arial;
+	text-align: center;
+	top: 53%;
+	left: 50%;
+	padding: 0 5px;
+}
+
+#note{
+	position: absolute;
+	left: 80%;
+	top: 23%;
+	height: 40px;
+	width: 30px;
+	background-image:url(../images/note.png);
+	cursor: pointer;
+}
+
+#note:hover{
+	background-position: -30px 0px;
+}

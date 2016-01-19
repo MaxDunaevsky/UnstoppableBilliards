@@ -1,0 +1,59 @@
+<!--
+	Unstoppable Billiards v1.0
+	http://maxdunaevsky.github.io/UnstoppableBilliards/
+	(c) 2016 MaxDunaevsky (masterMaxDW@gmail.com)
+	Based on ideas and techniques presented in 
+	Advanced Techniques for Desgning HTML5 Apps course
+	by Michel Buffa from W3C
+	https://www.edx.org/course/html5-part-2-advanced-techniques-w3cx-html5-2x#! 
+	
+	GPLv3 License
+	This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset=utf-8 />
+	<title>Unstoppable Billiards</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/game.js"></script>
+	<script src="js/listeners.js"></script>
+	<script src="js/collisions.js"></script>
+</head>
+<body>
+	<div id="canvasContainer">
+		<h1>Unstoppable Billiards</h1>
+		<table>
+			<tr>
+				<td></td>
+				<td>JavaScript vs. Player</td>
+			</tr>
+			<tr>
+				<td>Levels won</td>
+				<td id="levelsWon" align="center">0 : 0 </td>
+			</tr>
+			<tr>
+				<td>Balls currently</td>
+				<td id="ballsCurrently" align="center">0 : 0 </td>
+			</tr>
+		</table>
+		<div id="note"></div>
+		<canvas id="myCanvas" width="850" height="450"></canvas>
+		<div id="startButton">Start</div>
+		<div id="instruction">
+			<p>click - to stop a cue ball<br />mouse down and move - to wield a cue</p>
+		</div>
+	</div>
+</body>
+</html>
